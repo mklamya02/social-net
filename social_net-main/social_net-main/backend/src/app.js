@@ -24,6 +24,8 @@ const notificationRoute = require("./routes/notification.route");
 
 const app = express();
 
+app.set("trust proxy", 1);
+
 /**
  * MIDDLEWARE CONFIGURATION
  * Middleware are functions that run 'in the middle' of receiving a request and sending a response.
