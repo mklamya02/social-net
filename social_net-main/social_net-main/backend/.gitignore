@@ -1,0 +1,46 @@
+# Node.js
+node_modules/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+ 
+
+# Logs
+logs
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime data
+tmp
+temp
+
+# Directory for uploaded files
+uploads/
+media/
+
+# Build directories
+dist/
+build/
+
+# React
+client/node_modules/
+client/build/
+client/.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Misc
+*.bak
+*.tmp
+*.old

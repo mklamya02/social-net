@@ -1,0 +1,11 @@
+{
+  "name": "social-media-platform",
+  "version": "1.0.0",
+  "description": "Root orchestrator for Social Media Platform",
+  "scripts": {
+    "start": "wsl bash start.sh",
+    "stop": "docker compose down",
+    "logs": "docker compose logs -f",
+    "clean": "docker compose down -v"
+  }
+}
